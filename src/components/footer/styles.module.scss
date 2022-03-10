@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 4.5rem;
+    border-top: 1px solid var(--colors-shape-secondary);
+}
+
+.content{
+    max-width: 70rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-6) 0;
+
+    span {
+        color: var(--colors-text-support);
+        font-family: var(--fonts-default);
+        line-height: var(--lineHeights-base);
+        margin: 0px;
+        font-size: var(--fontSizes-sm);
+    }
+}

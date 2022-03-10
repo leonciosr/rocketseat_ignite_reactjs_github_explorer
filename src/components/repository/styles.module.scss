@@ -1,0 +1,62 @@
+    .repositoryList{
+        width: auto;
+        max-width: 1200px;
+        min-height: calc(100vh - 9.06rem);
+        margin: 40px auto;
+        padding: 0 2rem;
+        align-items: center;
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        h1 {
+            display: block;
+            margin-bottom: 16px;
+            padding: 1rem;
+            color: white;
+            background-color: rgb(32, 32, 36);
+            font-size: var(--fontSizes-4xl);
+        }
+
+        ul {
+            list-style: none;
+            li {
+                & + li {
+                    margin-top: 20px;
+                }
+                a { 
+                    color: var(--colors-text-title);
+                    font-size: var(--fontSizes-lg);
+                }
+                p { 
+                    // color: var(--colors-text-base);
+                    color: rgb(115, 115, 128);
+                }
+
+                padding-bottom: 1rem;
+            }
+    
+            margin-bottom: 20px;
+            &:last-child{
+                margin: 0;
+            }
+
+            hr {
+                border: 0;
+                border-top: 1px dashed #CCC;
+            }
+        }
+    
+        p {
+            font-size: 14px;
+            color: #444;
+            margin-top: 8px;
+        }
+    
+        a {
+            display: inline-block;
+            margin-top: 16px;
+            text-decoration: none;
+            color: #8257e6;
+        }
+    }
